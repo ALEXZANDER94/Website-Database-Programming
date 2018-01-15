@@ -1,0 +1,69 @@
+label, p{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 250px;
+    text-align: left;
+}
+input {
+  display: inline-block;
+  float: left;
+}
+input[type=submit]
+{
+    position:relative;
+    display: inline-block;
+    left: 40%;
+}
+#status
+{
+    display: block;
+    position: relative;
+    width: 310px;
+    overflow: auto;
+    left: 40%;
+    top: 10%;
+    color: red;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 25px;
+    background: #c6b0e8;
+    opacity: 0;
+    clear: both;
+}
+#navbar{
+    padding-top:5px;
+    padding-bottom:5px;
+    margin:auto;
+    background:#9585ad;
+    opacity:0.5;
+    position:absolute;
+    top:0px;
+    width:100%;
+    text-align:right;
+    clear:both;
+}
+#box{
+    position:fixed; 
+    padding:5px;
+    margin:auto;
+    top:30%;
+    left:40%;
+    background:#c6b0e8;
+    opacity:0.8;
+    width: 310px;
+ 
+}
+body,html{
+    background-image: url("/Photos/fantasy.png");
+    margin:0;
+    height: 100%;
+    width:100%;
+}
+h1
+{
+	color: red;
+	font-size: 200%;
+	text-align: center;
+	
+}
